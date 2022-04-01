@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 public class GradesTest {
 
-    /*
+
     @Test
     public void testAddSubject() {
         Grades grades = new Grades();
@@ -41,8 +41,8 @@ public class GradesTest {
         Exam exam = new Exam();
         String subject1 = "Math";
         String subject2 = "Programming";
-        int grade1 = 3;
-        int grade2 = 5;
+        String grade1 = "3";
+        String grade2 = "5";
 
         exam.addSubject(subject1);
         exam.addSubject(subject2);
@@ -51,5 +51,5 @@ public class GradesTest {
 
         assertEquals(subject1 + " " + grade1 + "\r\n" + subject2 + " " + grade2, exam.getGrades());
     }
-    */
+
 }
